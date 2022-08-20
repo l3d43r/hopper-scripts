@@ -11,7 +11,8 @@
 
 import hopper_api as api
 import binascii
-from itertools import cycle, izip
+from itertools import cycle
+from itertools  import zip_longest as zip
 
 
 def unhexlify(s):
